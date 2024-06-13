@@ -1,4 +1,8 @@
+import os
 print('(1) Metric (m, kg) or (2) Non-Metric (ft, pounds)?')
+print("os.environ",os.environ)
+print('os.environ.get("MY_ENV"):::',os.environ.get("MY_ENV"))
+print('os.environ.get("LOG_LEVEL"):::',os.environ.get("LOG_LEVEL"))
 
 chosen_system = input('Please choose: ')
 
